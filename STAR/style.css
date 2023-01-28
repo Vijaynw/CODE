@@ -1,0 +1,57 @@
+body{
+margin: 0;
+display: flex;
+justify-content: center;
+height: 100vh;
+align-items: center;
+background-color: yellow;
+
+}
+
+.container{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     */
+position: relative;
+}
+.emoji-container{
+ position: absolute;
+ left: 50%;
+transform:translateX(-50%); 
+/* left x */
+top: 20%;
+/* border: 2px solid red; */
+width:50px;
+height: 50px;
+overflow: hidden;
+border-radius: 50%;
+display: flex;
+
+}
+.fa-regular{
+    margin: 1px;
+    transform: translateX(-50px);
+}
+
+.rating-container{
+
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translateX(-50%);
+
+}
+.fa-star{
+    color: lightgray;
+    cursor: pointer;
+
+}
+.fa-star.active{
+    color: gold;
+}
