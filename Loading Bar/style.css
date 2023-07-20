@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-family: cursive;
+
+}
+
+.container{
+    text-align: center;
+    width: 400px;
+position: relative;
+/* border: 2px solid red; */
+}
+
+.counter{
+    font-size: 40px;
+
+}
+
+.loading-bar-back{
+    position: absolute;
+
+height: 8px;
+background-color: lightgray;
+width: 100%;
+border: none;
+border-radius: 5px;
+
+}
+.loading-bar-front{
+    position: absolute;
+
+height: 8px;
+background-color: orangered;
+width: 0%;
+border: none;
+border-radius: 5px;
+
+}
